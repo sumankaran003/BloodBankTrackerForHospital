@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "901378389367",
+    "firebase_url": "https://blood-bank-tracker.firebaseio.com",
+    "project_id": "blood-bank-tracker",
+    "storage_bucket": "blood-bank-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901378389367:android:cd6bbeac4ff5fbde",
+        "android_client_info": {
+          "package_name": "in.karan.suman.bloodbanktracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901378389367-a9d414rtr0mug839hgr096qtdm470e16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.karan.suman.bloodbanktracker",
+            "certificate_hash": "1e716c409ebdf88f9c85fe5d4e4081f8140448db"
+          }
+        },
+        {
+          "client_id": "901378389367-1tirbtggme16d5880sii8vtvj2u7s5h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgAKnAofXSVD9AwUjBlTL0HfN8aWOXAAs"
+        },
+        {
+          "current_key": "AIzaSyBe4BGlkod7Jw7F1VatrZkgnp2ucNZ2nEg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901378389367-1tirbtggme16d5880sii8vtvj2u7s5h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901378389367:android:c18906bca597937e",
+        "android_client_info": {
+          "package_name": "in.karan.suman.bloodbanktrackerforhospital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901378389367-onu0fujkdtqrr45k3qc2ii567lsfmknu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.karan.suman.bloodbanktrackerforhospital",
+            "certificate_hash": "1e716c409ebdf88f9c85fe5d4e4081f8140448db"
+          }
+        },
+        {
+          "client_id": "901378389367-1tirbtggme16d5880sii8vtvj2u7s5h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgAKnAofXSVD9AwUjBlTL0HfN8aWOXAAs"
+        },
+        {
+          "current_key": "AIzaSyBe4BGlkod7Jw7F1VatrZkgnp2ucNZ2nEg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901378389367-1tirbtggme16d5880sii8vtvj2u7s5h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

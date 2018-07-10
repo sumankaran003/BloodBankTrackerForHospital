@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    tools:context="in.karan.suman.bloodbanktrackerforhospital.MainActivity">
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="350dp"
+        android:background="#ffffff"
+        android:layout_height="50dp"
+        android:layout_marginTop="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText" />
+
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:background="#ffffff"
+        android:inputType="textPersonName"
+        android:hint="Enter District Name"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="68dp"
+        android:text="go" />
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="in.karan.suman.bloodbanktrackerforhospital.HospitalDetailsActivity">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="350dp"
+        android:background="#ffffff"
+        android:layout_height="40dp"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Hospital Name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="350dp"
+        android:background="#ffffff"
+        android:layout_height="40dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Phone Number"
+        android:layout_below="@+id/name"
+        android:layout_alignStart="@+id/name" />
+
+    <EditText
+        android:id="@+id/lat"
+        android:layout_width="350dp"
+        android:background="#ffffff"
+        android:layout_height="40dp"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Latitude"
+        android:layout_below="@+id/phone"
+        android:layout_alignStart="@+id/phone" />
+
+    <EditText
+        android:id="@+id/lon"
+        android:layout_width="350dp"
+        android:background="#ffffff"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/lat"
+        android:layout_below="@+id/lat"
+        android:layout_marginTop="22dp"
+        android:hint="Enter Longitude"
+        android:ems="10"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/add"
+        android:layout_width="350dp"
+        android:background="#ffffff"
+
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/lon"
+        android:layout_below="@+id/lon"
+        android:layout_marginTop="26dp"
+        android:hint="Enter Full Postal Address"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:text="Submit"
+        android:layout_below="@+id/add"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
